@@ -56,7 +56,7 @@ router.put('/:id',verifyTokenAndAuthorization,updateCart)
 
 //  })
 
-router.delete('/:id',verifyToeknAndAuthorization,deleteCart)
+router.delete('/:id',verifyTokenAndAuthorization,deleteCart)
 
 // // //delete
 //   router.delete('/:id',verifyTokenAndAuthorization,async(req,res)=>{
